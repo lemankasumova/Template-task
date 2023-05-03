@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Open+Sans:wght@300&family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,200;0,300;0,400;1,600&family=Roboto+Mono:wght@200;300;500;700&family=Ysabeau:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/hero-bg.jpg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    text-align: center;
+}
+
+.navbar {
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding-top: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    border-top: 1px solid rgb(192, 191, 191);
+    border-bottom: 1px solid rgb(192, 191, 191);
+    padding: 20px 0;
+}
+
+.navbar ul li a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navbar ul li a:hover {
+    color: #F42F2C;
+}
+.heading {
+    width: 80%;
+    margin: 0 auto;
+}
+.head_info {
+    width: 43%;
+    padding-top: 100px;
+}
+.wide {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+.head_info h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+}
+.info {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.check {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 60px;
+    padding: 13px 25px;
+    background-color: #F42F2C;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.check:hover {
+    background-color: black;
+}
+.about_section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+}
+.about {
+    width: 45%;
+    padding: 70px 0;
+}
+.container2 {
+    width: 100%;
+    padding-top: 100px;
+}
+.about h1 {
+    font-family: 'Poppins', sans-serif;
+}
+.about p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: rgb(167, 165, 165);
+    font-weight: 300;
+    padding-top: 20px;
+}
+.picture_about {
+    width: 45%;
+}
